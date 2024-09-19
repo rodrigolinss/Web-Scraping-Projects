@@ -4,7 +4,7 @@ Este repositório contém scripts de web scraping desenvolvidos para a extraçã
 
 ## Projetos
 
-### DF Móveis
+### DF Imóveis
 Script para extração de informações sobre apartamentos à venda, incluindo preços, metragem, número de quartos e vagas em determinadas regiões.
 
 ### SofaScore
