@@ -21,7 +21,7 @@ chrome_options.add_argument("--disable-images")
 chrome_options.add_argument('--ignore-certificate-errors')  # Ignorar erros de certificado SSL
 # chrome_options.add_argument('--headless')  # Habilitar modo headless se necessário
 
-service = Service(r'C:\Users\bogsk\Downloads\Web Scraping do Rodrigo meu filhao amado\chromedriver-win64\chromedriver-win64\chromedriver.exe')
+service = Service(r'C:\Users\chromedriver-win64\chromedriver.exe') # Caminho
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Lista para armazenar os dados coletados
