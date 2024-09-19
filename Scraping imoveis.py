@@ -15,7 +15,7 @@ def extrair_dados(paginas):
     desc_lista = []
 
     for pagina in range(1, paginas + 1):
-        url = f"https://www.dfimoveis.com.br/venda/df/brasilia/park-sul/apartamento?pagina={pagina}"
+        url = f"https://www.dfimoveis.com.br/venda/df/brasilia/park-sul/apartamento?pagina={pagina}"  # URL para Vendas de apartamentos no Park Sul
         html = requests.get(url=url, headers=header)
         site = BeautifulSoup(html.text, "html.parser")
 
