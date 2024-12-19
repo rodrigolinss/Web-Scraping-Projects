@@ -10,6 +10,9 @@ Script para extração de informações sobre apartamentos à venda, incluindo p
 ### SofaScore
 Script que coleta dados detalhados de partidas de futebol, como placares, tempo dos gols, times envolvidos, cartões e tempo dos cartões.
 
+### Books to Scrape
+Script para coletar informações sobre livros, como título, preço, disponibilidade, link, categoria e avaliação.
+
 ## Tecnologias Utilizadas
 
 - **Python**
